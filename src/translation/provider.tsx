@@ -20,25 +20,27 @@ export const Provider = ({ children }: ProviderType) => {
     localStorage.getItem('locale') || locales.english
   );
 
+  console.log(isActive);
+
   let locale;
 
   if (isActive === 'en-us') {
     locale = locales.english;
-  }
-  if (isActive === 'de') {
+  } else if (isActive === 'de') {
     locale = locales.german;
-  }
-  if (isActive === 'pl') {
+  } else if (isActive === 'pl') {
     locale = locales.polish;
   } else {
     locale = locales.bel;
   }
+  console.log(locale);
+  console.log(localeContent[locale]);
 
   return (
     <providerContext.Provider value={{ isActive, setIsActive }}>
       <IntlProvider
         locale={isActive}
-        defaultLocale="en"
+        defaultLocale="en-us"
         messages={localeContent[locale]}
       >
         {children}

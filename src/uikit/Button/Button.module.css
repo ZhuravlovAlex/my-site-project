@@ -1,0 +1,29 @@
+.welcome {
+  height: 56px;
+  min-width: 178px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #ffffff;
+  background-color: #032a66;
+  transition: 0.3s;
+  box-shadow: 0 0 40px rgb(15 96 223 / 20%);
+  cursor: pointer;
+}
+.primaryThick {
+  height: 40px;
+  min-width: 82px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-white);
+  padding: 10px 24px;
+  border-radius: 12px;
+  border: 2px solid var(--primary-button-default);
+  background-color: var(--primary-button-default);
+  transition: 0.3s;
+}

@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+aside,
+div,
+header,
+input,
+label,
+p,
+span {
+  font-family: Monserrat, sans-serif;
+}

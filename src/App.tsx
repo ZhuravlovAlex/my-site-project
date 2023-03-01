@@ -4,7 +4,7 @@ import './App.css';
 
 import { Provider } from './translation/provider';
 
-import { PageRenderer } from '../src/pageRenderer';
+import { PageRenderer } from './pageRenderer';
 
 export const App = () => (
   <Provider>
