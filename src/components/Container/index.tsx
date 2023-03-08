@@ -7,6 +7,7 @@ import { Header } from '../Header';
 import { WorkInfoBlock } from '../WorkInfoBlock';
 
 import styles from './Container.module.css';
+import { LanguageButtons } from '../../uikit/LanguageButton';
 
 // type ContainerProps = {
 //   children: React.ReactNode;
@@ -15,10 +16,11 @@ import styles from './Container.module.css';
 export const Container = () => {
   return (
     <div className={styles.wrapper}>
-      <Header />
+      {/* <Header /> */}
       <PersonalInfoBlock />
-
-      <WorkInfoBlock blockName={''} />
+      <LanguageButtons />
+      <WorkInfoBlock />
+      {/* <WorkInfoBlock blockName={''} /> */}
     </div>
   );
 };

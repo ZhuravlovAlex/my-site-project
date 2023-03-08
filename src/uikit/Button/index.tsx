@@ -11,7 +11,7 @@ export type ButtonType = 'button' | 'submit' | 'reset';
 export type VariantType = 'welcome' | 'showMore';
 
 export type ButtonProps = {
-  variant: VariantType;
+  variant?: VariantType;
   className?: string;
   disabled?: boolean;
   type?: ButtonType;
