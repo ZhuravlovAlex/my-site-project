@@ -24,14 +24,17 @@ export const WorkInfoBlock = () => {
       </div>
       {blockContent.map((workInfo, index) => (
         <div className={styles.workInfoBlock_wrapper} key={workInfo.id}>
-          <div className={styles.workInfoBlock_title}>{workInfo.title}</div>
-          <div className={styles.workInfoBlock_data}>{workInfo.data}</div>
-          <div className={styles.workInfoBlock_infoBlock}>
-            <div className={styles.workInfoBlock_logo}></div>
-            {workInfo.values.map((value) => (
-              <div>{value}</div>
-            ))}
+          <div className={styles.workInfoBlock_container}>
+            <div className={styles.workInfoBlock_title}>{workInfo.title}</div>
+            <div className={styles.workInfoBlock_data}>{workInfo.data}</div>
+            <div className={styles.workInfoBlock_infoBlock}>
+              <div className={styles.workInfoBlock_logo}></div>
+              {workInfo.values.map((value) => (
+                <div>{value}</div>
+              ))}
+            </div>
           </div>
+          <div className={styles.workInfoBlock_logo}></div>
         </div>
       ))}
     </>

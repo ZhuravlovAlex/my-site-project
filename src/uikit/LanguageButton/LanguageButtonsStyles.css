@@ -2,10 +2,14 @@
   width: 32px;
   height: 32px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 24px;
   letter-spacing: 0;
-  color: var(--primary-white);
+  color: #f2c53d;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 4px #f2c53d;
 }
 
 .selectedLangBtn {

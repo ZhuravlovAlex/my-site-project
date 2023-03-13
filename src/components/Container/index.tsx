@@ -16,9 +16,9 @@ import { LanguageButtons } from '../../uikit/LanguageButton';
 export const Container = () => {
   return (
     <div className={styles.wrapper}>
-      {/* <Header /> */}
+      <Header />
       <PersonalInfoBlock />
-      <LanguageButtons />
+      {/* <LanguageButtons /> */}
       <WorkInfoBlock />
       {/* <WorkInfoBlock blockName={''} /> */}
     </div>

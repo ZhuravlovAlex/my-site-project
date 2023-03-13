@@ -43,7 +43,7 @@ export const pl = {
       '• Zorganizowałem procesy produkcyjne, wprowadziłem na rynek nowe produkty.',
 
     coswick:
-      'INŻYNIER PRODUKCJI, GŁÓWNY INŻYNIER PRODUKCJI, KIEROWNIK PRODUKCJI, ZASTĘPCA DYREKTORA WYKONAWCZEGO, PRZEDSIĘBIORSTWO ZAGRANICZNE „COSWIK”, ZASLAVL, BIAŁORUŚ',
+      'INŻYNIER PRODUKCJI, GŁÓWNY INŻYNIER PRODUKCJI, KIEROWNIK PRODUKCJI, ZASTĘPCA DYREKTORA WYKONAWCZEGO, PRZEDSIĘBIORSTWO ZAGRANICZNE „COSWICK”, ZASLAVL, BIAŁORUŚ',
     value1coswickContent:
       '• Był odpowiedzialny za rozwój i wdrażanie nowych rodzajów podłóg.',
     value2coswickContent: '• Kierował Działem Produkcji.',
@@ -52,5 +52,15 @@ export const pl = {
     value1bstuContent:
       '• Prowadził badania naukowe nad efektywnością obróbki drewna.',
     value2bstuContent: '• Prowadził wykłady i seminaria.',
+    personalInfoTitle1: 'INFORMACJE OSOBISTE',
+    personalInfoTitle2: 'CEL',
+    address: 'Adres: obwód miński, Białoruś, Kraków, Polska',
+    email: 'E-mail: zhuravlev.alex75@gmail.com',
+    apps: 'Telefon i aplikacje: +375296963938 +48789949433',
+    namePersonalPart: 'ZHURAULIOU ALIAKSEI',
+    stackTech:
+      'SOFTWARE ENGINEER (FE) | REACT | JAVASCRIPT | TYPESCRIPT | PROJECT MANAGER',
+    personalValue:
+      'Zmotywowany, pełen pasji i zorientowany na klienta Project Manager z ponad 20-letnim doświadczeniem w branży tartacznej i meblarskiej na stanowisku Chief Technology Officer i Head of Production. Biegły w rozwiązywaniu problemów i zarządzaniu procesami produkcyjnymi. Wysoce zorganizowany i silny lider ze zdolnością do zwiększania produkcji i poprawy wyników finansowych.',
   },
 };

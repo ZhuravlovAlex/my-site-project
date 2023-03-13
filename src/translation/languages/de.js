@@ -42,7 +42,7 @@ export const de = {
       '• Produktionsprozesse organisiert, neue Produkte vermarktet.',
 
     coswick:
-      'FERTIGUNGSINGENIEUR, LEITENDER FERTIGUNGSINGENIEUR, PRODUKTIONSLEITER, STELLVERTRETENDER GESCHÄFTSFÜHRER, AUSLÄNDISCHES UNTERNEHMEN „COSWIK“, ZASLAVL, WEISSRUSSLAND',
+      'FERTIGUNGSINGENIEUR, LEITENDER FERTIGUNGSINGENIEUR, PRODUKTIONSLEITER, STELLVERTRETENDER GESCHÄFTSFÜHRER, AUSLÄNDISCHES UNTERNEHMEN „COSWICK“, ZASLAVL, WEISSRUSSLAND',
     value1coswickContent:
       '• War verantwortlich für die Entwicklung und Umsetzung neuartiger Bodenbeläge.',
     value2coswickContent: '• War verantwortlich für die Fertigungsabteilung.',
@@ -51,5 +51,15 @@ export const de = {
     value1bstuContent:
       '• Durchführung wissenschaftlicher Untersuchungen zur Wirksamkeit der Holzbearbeitung.',
     value2bstuContent: '• Vorlesungen und Seminare gehalten.',
+    personalInfoTitle1: 'PERSÖNLICHE ANGABEN',
+    personalInfoTitle2: 'ZIELSETZUNG',
+    address: 'Adresse: Gebiet Minsk, Weißrussland, Krakau, Polen',
+    email: 'E-Mail: zhuravlev.alex75@gmail.com',
+    apps: 'Telefon & Apps: +375 29 6963938 +48789949433',
+    namePersonalPart: 'ZHURAULIOU ALIAKSEI',
+    stackTech:
+      'SOFTWARE ENGINEER (FE) | REACT | JAVASCRIPT | TYPESCRIPT | PROJECT MANAGER',
+    personalValue:
+      'Selbstmotivierter, leidenschaftlicher und kundenorientierter Projektmanager mit über 20 Jahren Erfahrung in der Sägewerks- und Möbelindustrie in einer Position als Chief Technology Officer und Produktionsleiter. Versiert in der Problemlösung und im Fertigungsprozessmanagement. Eine hoch organisierte und starke Führungskraft mit der Fähigkeit, die Produktion zu steigern und das Endergebnis zu verbessern.',
   },
 };

@@ -1,6 +1,166 @@
-.personalInfoBlockk_wrapper {
+.personalInfoBlock_wrapper {
+  display: flex;
   width: 100%;
-  height: 600px;
-  background-color: lightblue;
-  border: solid 10px green;
+  /* height: 300px; */
+  background-color: #f2c53d;
+  margin-top: 116px;
+  -webkit-box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+
+.personalInfoBlock_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 32%;
+  height: 100%;
+  /* border: solid 2px rgb(0, 81, 128); */
+  margin: 24px;
+}
+
+.personalInfoBlock_img {
+  background-image: url('../../uikit/static/my_foto.jpg');
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  margin-left: 16px;
+  margin-bottom: 36px;
+}
+
+.personalInfoBlock_title1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #2c333f;
+}
+.personalInfoBlock_separateBlock {
+  height: 12px;
+  background-color: rgba(44, 51, 63, 0.85);
+  margin-bottom: 16px;
+}
+
+.personalInfoBlock_address,
+.personalInfoBlock_email,
+.personalInfoBlock_apps {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #2c333f;
+}
+/* _________________Objective_________________ */
+
+.objectiveInfoBlock_content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 68%;
+  height: 100%;
+  margin: 24px 24px 24px 0px;
+  /* border: solid 2px rgb(0, 81, 128); */
+}
+
+.content {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  top: 108%;
+  left: 16%;
+  background-color: #2c333f;
+  padding: 47px 16px 47px 34px;
+  background-color: rgba(44, 51, 63, 0.85);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: flex-start;
+  -webkit-box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+
+.objectiveInfoBlock_name {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  font-style: italic;
+  color: #2c333f;
+  margin: 24px 24px 0px 0px;
+  text-align: right;
+}
+
+.objectiveInfoBlock_separateBlock {
+  height: 12px;
+  background-color: rgba(44, 51, 63, 0.85);
+}
+
+.objectiveInfoBlock_stack {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.03em;
+
+  color: #2c333f;
+  margin: 24px 24px 24px 0px;
+  text-align: right;
+}
+
+.objectiveInfoBlock_title2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 74px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #f2c53d;
+}
+
+.objectiveInfoBlock_data {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.03em;
+  color: #2c333f;
+  margin: 16px 0;
+}
+
+.objectiveInfoBlock_value {
+  /* font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  letter-spacing: 0.03em;
+  color: #2c333f; */
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #e5e9f0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  flex: 1;
+  height: auto;
+  margin-bottom: 15px;
+  overflow: auto;
 }

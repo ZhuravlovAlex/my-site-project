@@ -60,7 +60,7 @@ export const en = {
       '•	Organized production processes, marketed new products.',
 
     coswick:
-      'MANUFACTURING ENGINEER, LEAD MANUFACTURING ENGINEER, PRODUCTION MANAGER, DEPUTY CHIEF EXECUTIVE OFFICER, FOREIGN ENTERPRISE “COSWIK”, ZASLAVL, BELARUS',
+      'MANUFACTURING ENGINEER, LEAD MANUFACTURING ENGINEER, PRODUCTION MANAGER, DEPUTY CHIEF EXECUTIVE OFFICER, FOREIGN ENTERPRISE “COSWICK”, ZASLAVL, BELARUS',
     value1coswickContent:
       '•	Was responsible for the development and implementation of new kinds of flooring.',
     value2coswickContent: '•	Was in charge of the Manufacturing Department.',
@@ -69,5 +69,15 @@ export const en = {
     value1bstuContent:
       '•	Carried out scientific research into woodworking effectiveness.',
     value2bstuContent: '•	Gave lectures and seminars.',
+    personalInfoTitle1: 'PERSONAL INFORMATION',
+    personalInfoTitle2: 'OBJECTIVE',
+    address: 'Address: Minsk region, Belarus, Krakow, Poland',
+    email: 'E-mail: zhuravlev.alex75@gmail.com',
+    apps: 'Phone & apps: +375 29 6963938 +48 789 949 433',
+    namePersonalPart: 'ZHURAULIOU ALIAKSEI',
+    stackTech:
+      'SOFTWARE ENGINEER (FE) | REACT | JAVASCRIPT | TYPESCRIPT | PROJECT MANAGER',
+    personalValue:
+      'Self-motivated, passionate, and client-oriented Project Manager with over 20 years of experience in the sawmill and furniture industries at a Chief Technology Officer and Head of Production position. Adept in problem solving and manufacturing process management. A highly organized and strong leader with the ability to increase production and improve the bottom line.',
   },
 };

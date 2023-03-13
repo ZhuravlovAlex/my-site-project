@@ -1,4 +1,5 @@
 import React from 'react';
+import { LanguageButtons } from '../../uikit/LanguageButton';
 
 import styles from './Header.module.css';
 
@@ -13,7 +14,7 @@ export const Header = () => {
           <div className={styles.search} id="search">
             <div className={styles.search_wrapper}>
               <div className={styles.search_input_container}>
-                <form action="">
+                <form action="" className="search_input_form--is-expanded">
                   <input
                     className={styles.search_input}
                     name="s"
@@ -27,6 +28,7 @@ export const Header = () => {
               </div>
             </div>
           </div>
+          <LanguageButtons />
           <div className={styles.burger_menu} id="burger-menu"></div>
         </div>
       </div>
