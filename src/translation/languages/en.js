@@ -76,8 +76,17 @@ export const en = {
     apps: 'Phone & apps: +375 29 6963938 +48 789 949 433',
     namePersonalPart: 'ZHURAULIOU ALIAKSEI',
     stackTech:
-      'SOFTWARE ENGINEER (FE) | REACT | JAVASCRIPT | TYPESCRIPT | PROJECT MANAGER',
+      'SOFTWARE ENGINEER (FE) | REACT | JAVASCRIPT | TYPESCRIPT | NODE.JS | PROJECT MANAGER',
     personalValue:
       'Self-motivated, passionate, and client-oriented Project Manager with over 20 years of experience in the sawmill and furniture industries at a Chief Technology Officer and Head of Production position. Adept in problem solving and manufacturing process management. A highly organized and strong leader with the ability to increase production and improve the bottom line.',
+
+    educationBlockName: 'EDUCATION',
+    postgraduate:
+      'POSTGRADUATE STUDENT, BELARUSIAN STATE TECHNOLOGICAL UNIVERSITY, MINSK, BELARUS',
+    postgraduateSpecialization:
+      'Specialization 05.21.05: technology and equipment for the woodworking industry, wood technology',
+    bachelor:
+      'BACHELOR, BELARUSIAN STATE TECHNOLOGICAL UNIVERSITY, MINSK, BELARUS ',
+    bachelorSpecialization: 'Specialization: woodworking technology.',
   },
 };

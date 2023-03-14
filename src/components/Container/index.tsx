@@ -1,14 +1,17 @@
 import React from 'react';
 
-import { PersonalInfoBlock } from '../PersonalInfoBlock';
+import { PersonalInfoBlock } from '../InfoBlocks/PersonalInfoBlock';
 
 import { Header } from '../Header';
 
-import { WorkInfoBlock } from '../WorkInfoBlock';
+import { WorkInfoBlock } from '../InfoBlocks/WorkInfoBlock';
 
-import styles from './Container.module.css';
 import { LanguageButtons } from '../../uikit/LanguageButton';
 
+import { EducationInfoBlock } from '../InfoBlocks/EducationInfoBlock';
+
+import styles from './Container.module.css';
+import { CoursesInfoBlock } from '../InfoBlocks/CoursesInfoBlock/Index';
 // type ContainerProps = {
 //   children: React.ReactNode;
 // };
@@ -20,6 +23,8 @@ export const Container = () => {
       <PersonalInfoBlock />
       {/* <LanguageButtons /> */}
       <WorkInfoBlock />
+      <EducationInfoBlock />
+      <CoursesInfoBlock />
       {/* <WorkInfoBlock blockName={''} /> */}
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { PersonalInfoBlock } from './components/PersonalInfoBlock';
+import { PersonalInfoBlock } from './components/InfoBlocks/PersonalInfoBlock';
 
 import { Container } from './components/Container';
 

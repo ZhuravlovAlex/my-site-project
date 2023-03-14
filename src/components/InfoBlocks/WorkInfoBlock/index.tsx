@@ -28,13 +28,13 @@ export const WorkInfoBlock = () => {
             <div className={styles.workInfoBlock_title}>{workInfo.title}</div>
             <div className={styles.workInfoBlock_data}>{workInfo.data}</div>
             <div className={styles.workInfoBlock_infoBlock}>
-              <div className={styles.workInfoBlock_logo}></div>
+              {/* <div className={styles.workInfoBlock_logo}></div> */}
               {workInfo.values.map((value) => (
                 <div>{value}</div>
               ))}
             </div>
           </div>
-          <div className={styles.workInfoBlock_logo}></div>
+          <div className={styles.workInfoBlock_logo}>{workInfo.logo}</div>
         </div>
       ))}
     </>
