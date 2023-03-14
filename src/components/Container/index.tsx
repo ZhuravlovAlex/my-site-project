@@ -6,9 +6,11 @@ import { Header } from '../Header';
 
 import { WorkInfoBlock } from '../WorkInfoBlock';
 
-import styles from './Container.module.css';
 import { LanguageButtons } from '../../uikit/LanguageButton';
 
+import { EducationInfoBlock } from '../EducationInfoBlock';
+
+import styles from './Container.module.css';
 // type ContainerProps = {
 //   children: React.ReactNode;
 // };
@@ -20,6 +22,7 @@ export const Container = () => {
       <PersonalInfoBlock />
       {/* <LanguageButtons /> */}
       <WorkInfoBlock />
+      <EducationInfoBlock />
       {/* <WorkInfoBlock blockName={''} /> */}
     </div>
   );

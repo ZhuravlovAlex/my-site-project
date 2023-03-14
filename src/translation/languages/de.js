@@ -58,8 +58,17 @@ export const de = {
     apps: 'Telefon & Apps: +375 29 6963938 +48789949433',
     namePersonalPart: 'ZHURAULIOU ALIAKSEI',
     stackTech:
-      'SOFTWARE ENGINEER (FE) | REACT | JAVASCRIPT | TYPESCRIPT | PROJECT MANAGER',
+      'SOFTWARE ENGINEER (FE) | REACT | JAVASCRIPT | TYPESCRIPT | NODE.JS | PROJECT MANAGER',
     personalValue:
       'Selbstmotivierter, leidenschaftlicher und kundenorientierter Projektmanager mit über 20 Jahren Erfahrung in der Sägewerks- und Möbelindustrie in einer Position als Chief Technology Officer und Produktionsleiter. Versiert in der Problemlösung und im Fertigungsprozessmanagement. Eine hoch organisierte und starke Führungskraft mit der Fähigkeit, die Produktion zu steigern und das Endergebnis zu verbessern.',
+
+    educationBlockName: 'AUSBILDUNG',
+    postgraduate:
+      'STUDIERENDE, BELARUSIAN STAATLICHE TECHNOLOGISCHE UNIVERSITÄT, MINSK, WEISSRUSSLAND',
+    postgraduateSpecialization:
+      'Vertiefung 21.05.05: Technik und Ausrüstung für die holzverarbeitende Industrie, Holztechnik',
+    bachelor:
+      'BACHELOR, BELARUSIAN STAATLICHE TECHNOLOGISCHE UNIVERSITÄT, MINSK, WEISSRUSSLAND',
+    bachelorSpecialization: 'Fachrichtung: Holzbearbeitungstechnik.',
   },
 };

@@ -59,8 +59,17 @@ export const pl = {
     apps: 'Telefon i aplikacje: +375296963938 +48789949433',
     namePersonalPart: 'ZHURAULIOU ALIAKSEI',
     stackTech:
-      'SOFTWARE ENGINEER (FE) | REACT | JAVASCRIPT | TYPESCRIPT | PROJECT MANAGER',
+      'SOFTWARE ENGINEER (FE) | REACT | JAVASCRIPT | TYPESCRIPT | NODE.JS |PROJECT MANAGER',
     personalValue:
       'Zmotywowany, pełen pasji i zorientowany na klienta Project Manager z ponad 20-letnim doświadczeniem w branży tartacznej i meblarskiej na stanowisku Chief Technology Officer i Head of Production. Biegły w rozwiązywaniu problemów i zarządzaniu procesami produkcyjnymi. Wysoce zorganizowany i silny lider ze zdolnością do zwiększania produkcji i poprawy wyników finansowych.',
+
+    educationBlockName: 'EDUKACJA',
+    postgraduate:
+      'STUDENT PODYPLOMOWY, BIAŁORUSKI PAŃSTWOWY UNIWERSYTET TECHNOLOGICZNY, MIŃSK, BIAŁORUŚ',
+    postgraduateSpecialization:
+      'Specjalizacja 05.21.05: technologia i urządzenia dla przemysłu drzewnego, technologia drewna',
+    bachelor:
+      'LICENCJAT, BIAŁORUSKI PAŃSTWOWY UNIWERSYTET TECHNOLOGICZNY, MIŃSK, BIAŁORUŚ',
+    bachelorSpecialization: 'Specjalizacja: technologia obróbki drewna',
   },
 };

@@ -1,12 +1,31 @@
-import React from 'react';
+import React, { ReactComponentElement } from 'react';
 
 import { FormattedMessage } from 'react-intl';
+
+import {
+  Andersen,
+  BSTU,
+  Coswick,
+  EPAM,
+  Fitness,
+  Holz,
+  IPM,
+  Monbel,
+  Old,
+  RSS,
+  RSSyellow,
+  Timba,
+  TimbaOld,
+  VDS,
+  VM,
+} from '../Icons';
 
 export type WorkInfoBlockDataType = {
   className: string;
   part: string | null;
   title: string;
   data: Date;
+  Logo: string;
   value1: string;
   value2: string;
   value3: string;
@@ -25,6 +44,7 @@ export const WorkInfoBlockData = [
     part: <FormattedMessage id="namePart" />,
     title: <FormattedMessage id="monbel" />,
     data: '10.06.2019 – 08.08.2022',
+    logo: <TimbaOld />,
     values: [
       <FormattedMessage id="value1MonbelContent" />,
       <FormattedMessage id="value2MonbelContent" />,
@@ -50,6 +70,7 @@ export const WorkInfoBlockData = [
     part: <FormattedMessage id="namePart" />,
     title: <FormattedMessage id="lesoindustriya" />,
     data: '01.05.2016 – 01.04.2018',
+    logo: <Old />,
     values: [
       <FormattedMessage id="value1lesoindustriyaContent" />,
       <FormattedMessage id="value2lesoindustriyaContent" />,
@@ -87,6 +108,7 @@ export const WorkInfoBlockData = [
     part: <FormattedMessage id="namePart" />,
     title: <FormattedMessage id="coswick" />,
     data: '05.09.2005 – 04.03.2010',
+    logo: <Coswick />,
     values: [
       <FormattedMessage id="value1coswickContent" />,
       <FormattedMessage id="value2coswickContent" />,
