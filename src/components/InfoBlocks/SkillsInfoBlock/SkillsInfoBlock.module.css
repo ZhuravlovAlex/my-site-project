@@ -11,7 +11,7 @@
   margin-left: 36px;
 }
 
-.coursesInfoBlock_wrapper {
+.skillsInfoBlock_wrapper {
   display: flex;
   justify-content: space-between;
   background-color: #f0f2f5;
@@ -20,11 +20,11 @@
   box-shadow: 0 4px 10px rgb(0 0 0 / 25%);
 }
 
-.coursesInfoBlock_container {
+.skillsInfoBlock_container {
   width: 80%;
 }
 
-.coursesInfoBlock_title {
+.skillsInfoBlock_title {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -34,12 +34,12 @@
   margin: 24px 24px 16px;
 }
 
-.coursesInfoBlock_data {
+.skillsInfoBlock_data {
   margin: 0px 24px 16px;
   font-weight: 500;
 }
 
-.coursesInfoBlock_infoBlock {
+.skillsInfoBlock_infoBlock {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -65,7 +65,7 @@
   overflow: auto;
 }
 
-.coursesInfoBlock_logo {
+.skillsInfoBlock_logo {
   width: 20%;
   border: solid 2px green;
 }

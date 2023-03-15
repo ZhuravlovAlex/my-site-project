@@ -14,7 +14,7 @@ export const CoursesInfoBlock = () => {
   return (
     <>
       <div className={styles.block_name}>
-        <FormattedMessage id="educationBlockName" />
+        <FormattedMessage id="coursesBlockName" />
       </div>
       {blockContent.map((coursesInfo, index) => (
         <div className={styles.coursesInfoBlock_wrapper} key={coursesInfo.id}>

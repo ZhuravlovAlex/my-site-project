@@ -21,11 +21,9 @@ export const Container = () => {
     <div className={styles.wrapper}>
       <Header />
       <PersonalInfoBlock />
-      {/* <LanguageButtons /> */}
       <WorkInfoBlock />
       <EducationInfoBlock />
       <CoursesInfoBlock />
-      {/* <WorkInfoBlock blockName={''} /> */}
     </div>
   );
 };
