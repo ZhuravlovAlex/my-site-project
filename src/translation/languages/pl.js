@@ -71,5 +71,22 @@ export const pl = {
     bachelor:
       'LICENCJAT, BIAŁORUSKI PAŃSTWOWY UNIWERSYTET TECHNOLOGICZNY, MIŃSK, BIAŁORUŚ',
     bachelorSpecialization: 'Specjalizacja: technologia obróbki drewna',
+
+    coursesBlockName: 'KWALIFIKACJE I KURSY',
+    coursesAndersenLabInternship:
+      '• Staż w AndersenLab „JavaScript/TypeScript, React”',
+    coursesAndersenLabTrainee: '• Praktykant AndersenLab „Node.JS”',
+    coursesRSS:
+      '• Kurs Rolling Scopes School „JavaScript/Front-end Certificate”',
+    coursesCSB: '• Podstawy informatyki (Learn Digital Platform by EPAM)',
+    coursesVM: '• Kursy wideo HTML5 i CSS3',
+    coursesFitness:
+      '• Kurs Akademii Fitness. Specjalizacja instruktor siłowni i trener personalny. Joint Venture LLC Edukacja fitness. Certyfikat',
+    coursesIPMProduction:
+      '• Kurs odświeżający „Zarządzanie kosztami i organizacja produkcji”, Joint Venture LLC „Instytut Prywatyzacji i Zarządzania”, Mińsk, Białoruś. Certyfikat',
+    coursesIPMOptimization:
+      '• Kurs odświeżający „Zarządzanie strategiczne i optymalizacja procesów produkcyjnych”, Joint Venture LLC „Instytut Prywatyzacji i Zarządzania”, Mińsk, Białoruś /02.03.2006 - 22.04.2006/ Certyfikat',
+    coursesEnglish:
+      '• Kurs języka angielskiego, Miński Państwowy Uniwersytet Lingwistyczny, Mińsk, Białoruś. Dyplom',
   },
 };

@@ -70,5 +70,21 @@ export const de = {
     bachelor:
       'BACHELOR, BELARUSIAN STAATLICHE TECHNOLOGISCHE UNIVERSITÄT, MINSK, WEISSRUSSLAND',
     bachelorSpecialization: 'Fachrichtung: Holzbearbeitungstechnik.',
+
+    coursesBlockName: 'QUALIFIKATIONEN & KURSE',
+    coursesAndersenLabInternship:
+      '• AndersenLab-Praktikum „JavaScript/TypeScript, React“',
+    coursesAndersenLabTrainee: '• AndersenLab-Praktikant „Node.JS“',
+    coursesRSS: '• Kurs Rolling Scopes School „JavaScript/Frontend-Zertifikat“',
+    coursesCSB: '• Grundlagen der Informatik (Learn Digital Platform by EPAM)',
+    coursesVM: '• Videokurse HTML5 und CSS3',
+    coursesFitness:
+      '• Fitness Academy-Kurs. Spezialisierter Fitnesstrainer und Personal Trainer. Joint Venture LLC Fitnessausbildung. Zertifikat',
+    coursesIPMProduction:
+      '• Auffrischungskurs „Kostenmanagement und Organisation der Produktion“, Joint Venture LLC „Institut für Privatisierung und Management“, Minsk, Weißrussland. Zertifikat',
+    coursesIPMOptimization:
+      '• Auffrischungskurs „Strategisches Management und Produktionsprozessoptimierung“, Joint Venture LLC „Institut für Privatisierung und Management“, Minsk, Weißrussland. Zertifikat',
+    coursesEnglish:
+      '• Englischkurs, Staatliche Linguistische Universität Minsk, Minsk, Weißrussland. Diplom',
   },
 };

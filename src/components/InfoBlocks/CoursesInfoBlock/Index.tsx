@@ -5,6 +5,7 @@ import { FormattedMessage, useIntl } from 'react-intl';
 import { CoursesInfoBlockData } from './CoursesInfoBlockData';
 
 import styles from './CoursesInfoBlock.module.css';
+import { Andersen } from '../../Icons';
 
 export const CoursesInfoBlock = () => {
   const [blockContent, setBlockContent] = useState(CoursesInfoBlockData);
@@ -19,19 +20,24 @@ export const CoursesInfoBlock = () => {
       {blockContent.map((coursesInfo, index) => (
         <div className={styles.coursesInfoBlock_wrapper} key={coursesInfo.id}>
           <div className={styles.coursesInfoBlock_container}>
-            <div className={styles.coursesInfoBlock_title}>
-              {coursesInfo.title}
-            </div>
-            <div className={styles.coursesInfoBlock_data}>
-              {coursesInfo.data}
-            </div>
-            <div className={styles.coursesInfoBlock_infoBlock}>
-              {coursesInfo.values.map((value) => (
-                <div>{value}</div>
-              ))}
-            </div>
+            {coursesInfo.courses.map((course, index) => (
+              <div className={styles.coursesInfoBlock_valueBlock} key={index}>
+                <div className={styles.coursesInfoBlock_value}>
+                  {course.value}
+                </div>
+                <div className={styles.coursesInfoBlock_dataLogoBlock}>
+                  <div className={styles.coursesInfoBlock_data}>
+                    {course.data}
+                  </div>
+                  <div className={styles.coursesInfoBlock_logo}>
+                    <a href={course.link} className={styles.link_a}>
+                      {course.logo}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
-          <div className={styles.coursesInfoBlock_logo}>{coursesInfo.logo}</div>
         </div>
       ))}
     </>

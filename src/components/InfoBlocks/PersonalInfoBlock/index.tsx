@@ -2,7 +2,7 @@ import React from 'react';
 
 import { mainLogo } from './PersonalInfoBlockData';
 
-import my_foto from '../../uikit/static/my_foto.jpg';
+import my_foto from '../../../uikit/static/my_foto.jpg';
 
 import { PersonalInfoBlockData } from './PersonalInfoBlockData';
 

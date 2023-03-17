@@ -18,8 +18,9 @@
 }
 
 .workInfoBlock_logo {
-  width: 20%;
+  width: 16%;
   border: solid 2px green;
+  align-self: center;
 }
 
 .block_name {

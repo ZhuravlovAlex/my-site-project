@@ -3,40 +3,14 @@ import React, { ReactComponentElement } from 'react';
 import { FormattedMessage } from 'react-intl';
 
 import {
-  Andersen,
-  BSTU,
-  Coswick,
-  EPAM,
-  Fitness,
-  Holz,
-  IPM,
-  Monbel,
-  Old,
-  RSS,
-  RSSyellow,
   Timba,
-  TimbaOld,
+  OldWood,
+  Coswick,
+  Monbel,
   VDS,
-  VM,
+  HolzLine,
+  BSTU,
 } from '../../Icons';
-
-export type WorkInfoBlockDataType = {
-  className: string;
-  part: string | null;
-  title: string;
-  data: Date;
-  Logo: string;
-  value1: string;
-  value2: string;
-  value3: string;
-  value4: string;
-  value5: string;
-  value6: string;
-  value7: string;
-  value8: string;
-};
-
-// export const ValueContentData = [{}];
 
 export const WorkInfoBlockData = [
   {
@@ -44,7 +18,7 @@ export const WorkInfoBlockData = [
     part: <FormattedMessage id="namePart" />,
     title: <FormattedMessage id="monbel" />,
     data: '10.06.2019 – 08.08.2022',
-    logo: <TimbaOld />,
+    logo: <Monbel />,
     values: [
       <FormattedMessage id="value1MonbelContent" />,
       <FormattedMessage id="value2MonbelContent" />,
@@ -57,6 +31,8 @@ export const WorkInfoBlockData = [
     part: <FormattedMessage id="namePart" />,
     title: <FormattedMessage id="vdsGroup" />,
     data: '03.04.2018 – 09.06.2019',
+    logo: <VDS />,
+    //logo: <HandySvg src={VDS} className="icon" width="150" height="150" />,
     values: [
       <FormattedMessage id="value1vdsGroupContent" />,
       <FormattedMessage id="value2vdsGroupContent" />,
@@ -70,7 +46,7 @@ export const WorkInfoBlockData = [
     part: <FormattedMessage id="namePart" />,
     title: <FormattedMessage id="lesoindustriya" />,
     data: '01.05.2016 – 01.04.2018',
-    logo: <Old />,
+    logo: <OldWood />,
     values: [
       <FormattedMessage id="value1lesoindustriyaContent" />,
       <FormattedMessage id="value2lesoindustriyaContent" />,
@@ -84,6 +60,7 @@ export const WorkInfoBlockData = [
     part: <FormattedMessage id="namePart" />,
     title: <FormattedMessage id="timberdesign" />,
     data: '01.11.2015 – 30.07.2016',
+    logo: <Timba />,
     values: [
       <FormattedMessage id="value1timberdesignContent" />,
       <FormattedMessage id="value2timberdesignContent" />,
@@ -96,6 +73,7 @@ export const WorkInfoBlockData = [
     part: <FormattedMessage id="namePart" />,
     title: <FormattedMessage id="holztech" />,
     data: '27.06.2011 – 09.06.2015',
+    logo: <HolzLine />,
     values: [
       <FormattedMessage id="value1holztechContent" />,
       <FormattedMessage id="value2holztechContent" />,
@@ -120,6 +98,7 @@ export const WorkInfoBlockData = [
     part: <FormattedMessage id="namePart" />,
     title: <FormattedMessage id="bstu" />,
     data: '20.11.1997 – 30.11.2004',
+    logo: <BSTU />,
     values: [
       <FormattedMessage id="value1bstuContent" />,
       <FormattedMessage id="value2bstuContent" />,

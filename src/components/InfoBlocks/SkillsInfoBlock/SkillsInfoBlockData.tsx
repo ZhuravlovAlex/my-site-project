@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FormattedMessage } from 'react-intl';
 
-import { TimbaOld } from '../../Icons';
+import { Timba } from '../../Icons';
 
 export type SkillsInfoBlockDataType = {
   className: string;

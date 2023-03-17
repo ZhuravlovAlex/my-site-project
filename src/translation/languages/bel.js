@@ -4,7 +4,7 @@ export const bel = {
   [locales.bel]: {
     blockName: 'ДОСВЕД ПРАЦЫ',
     monbel:
-      'КІРАЎНІК ПРАЕКТАЎ, ПРЫВАТНАЕ ПАДПРЫЕМСТВА «МАНБЕЛ», МІНСК, БЕЛАРУСЬS',
+      'КІРАЎНІК ПРАЕКТАЎ, ПРЫВАТНАЕ ПАДПРЫЕМСТВА «МАНБЕЛ», МІНСК, БЕЛАРУСЬ',
     value1MonbelContent: '•	Арганізацыя вытворчасці мэблі.',
     value2MonbelContent: '•	Распрацоўка новых прадметаў мэблі.',
     value3MonbelContent: '• Займаўся сертыфікацыяй мэблі.',
@@ -68,5 +68,22 @@ export const bel = {
     bachelor:
       'БАКАЛАЎР, БЕЛАРУСКІ ДЗЯРЖАЎНЫ ТЭХНАЛАГІЧНЫ УНІВЕРСІТЭТ, МІНСК, БЕЛАРУСЬ',
     bachelorSpecialization: 'Спецыялізацыя: тэхналогія дрэваапрацоўкі.',
+
+    coursesBlockName: 'КВАЛІФІКАЦЫЯ І КУРСЫ',
+    coursesAndersenLabInternship:
+      '• Iнтэрнатура ў AndersenLab “JavaScript/TypeScript, React”',
+    coursesAndersenLabTrainee: '• Стажор AndersenLab “Node.JS”',
+    coursesRSS:
+      '• Полны курс Rolling Scopes School “JavaScript/Front-end with Certificate”',
+    coursesCSB: '• Асновы інфарматыкі (Learn Digital Platform ад EPAM)',
+    coursesVM: '• Відэакурсы HTML5 і CSS3',
+    coursesFitness:
+      '• Курс фітнес-акадэміі. Спецыялізаваны інструктар трэнажорнай залы і персанальны трэнер. ОАА Фітнес-адукацыя. Сертыфікат',
+    coursesIPMProduction:
+      '• Курс павышэння кваліфікацыі «Кіраванне выдаткамі і арганізацыя вытворчасці», СП ТАА «Інстытут прыватызацыі і менеджменту», Мінск, Беларусь. Сертыфікат',
+    coursesIPMOptimization:
+      '• Курс павышэння кваліфікацыі «Стратэгічнае кіраванне і аптымізацыя вытворчых працэсаў», СП ТАА «Інстытут прыватызацыі і менеджменту», Мінск, Беларусь. Сертыфікат',
+    coursesEnglish:
+      '• Курс англійскай мовы, Мінскі дзяржаўны лінгвістычны ўніверсітэт, Мінск, Беларусь. Дыплом',
   },
 };

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FormattedMessage } from 'react-intl';
 
-import { TimbaOld } from '../../Icons';
+import { BSTUsmall } from '../../Icons';
 
 export type EducationInfoBlockDataType = {
   className: string;
@@ -25,11 +25,8 @@ export const EducationInfoBlockData = [
     part: <FormattedMessage id="namePart" />,
     title: <FormattedMessage id="postgraduate" />,
     data: '01.11.1997 - 31.10.2000',
-    logo: <TimbaOld />,
-    values: [
-      <FormattedMessage id="postgraduateSpecialization" />,
-      // <FormattedMessage id="value2MonbelContent" />,
-    ],
+    logo: <BSTUsmall />,
+    values: [<FormattedMessage id="postgraduateSpecialization" />],
     id: 0,
   },
   {
@@ -37,11 +34,8 @@ export const EducationInfoBlockData = [
     part: <FormattedMessage id="namePart" />,
     title: <FormattedMessage id="bachelor" />,
     data: '01.09.1992 - 16.06.1997',
-    logo: <TimbaOld />,
-    values: [
-      <FormattedMessage id="bachelorSpecialization" />,
-      // <FormattedMessage id="value2MonbelContent" />,
-    ],
+    logo: <BSTUsmall />,
+    values: [<FormattedMessage id="bachelorSpecialization" />],
     id: 1,
   },
 ];

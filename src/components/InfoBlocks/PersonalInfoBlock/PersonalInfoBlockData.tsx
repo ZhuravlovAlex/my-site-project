@@ -1,6 +1,6 @@
 import React from 'react';
 
-import avatar from '../../uikit/static/avatar.jpg';
+import avatar from '../../../uikit/static/avatar.jpg';
 
 import { FormattedMessage } from 'react-intl';
 

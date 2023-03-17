@@ -9,9 +9,10 @@ import { WorkInfoBlock } from '../InfoBlocks/WorkInfoBlock';
 import { LanguageButtons } from '../../uikit/LanguageButton';
 
 import { EducationInfoBlock } from '../InfoBlocks/EducationInfoBlock';
+import { CoursesInfoBlock } from '../InfoBlocks/CoursesInfoBlock/Index';
 
 import styles from './Container.module.css';
-import { CoursesInfoBlock } from '../InfoBlocks/CoursesInfoBlock/Index';
+// import { CoursesInfoBlock } from '../InfoBlocks/CoursesInfoBlock/Index';
 // type ContainerProps = {
 //   children: React.ReactNode;
 // };

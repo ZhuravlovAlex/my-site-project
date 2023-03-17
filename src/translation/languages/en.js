@@ -88,5 +88,21 @@ export const en = {
     bachelor:
       'BACHELOR, BELARUSIAN STATE TECHNOLOGICAL UNIVERSITY, MINSK, BELARUS ',
     bachelorSpecialization: 'Specialization: woodworking technology.',
+
+    coursesBlockName: 'QUALIFICATIONS & COURSES',
+    coursesAndersenLabInternship:
+      '•	AndersenLab Internship “JavaScript/TypeScript, React”',
+    coursesAndersenLabTrainee: '•	AndersenLab Trainee “Node.JS”',
+    coursesRSS: '•	Rolling Scopes School Course “JavaScript/Front-end”',
+    coursesCSB: '•	Computer Science Basics (Learn Digital Platform by EPAM)',
+    coursesVM: '•	Video courses HTML5 and CSS3',
+    coursesFitness:
+      '•	Fitness Academy course. Specialization gym instructor and personal trainer. Joint Venture LLC Fitness Education. ',
+    coursesIPMProduction:
+      '•	Refresher course “Cost Management and Organization of Production”, Joint Venture LLC “Institute for Privatization and Management”, Minsk, Belarus /24.05.2006 - 24.06.2006/ ',
+    coursesIPMOptimization:
+      '•	Refresher course “Strategic Management and Production Process Optimization”, Joint Venture LLC “Institute for Privatization and Management”, Minsk, Belarus /02.03.2006 - 22.04.2006/ ',
+    coursesEnglish:
+      '•	English Language Course, Minsk State Linguistic University, Minsk, Belarus 01.10.2003 - 16.06.2005 ',
   },
 };

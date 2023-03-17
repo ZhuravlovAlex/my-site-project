@@ -19,7 +19,7 @@
 }
 
 .personalInfoBlock_img {
-  background-image: url('../../uikit/static/my_foto.jpg');
+  background-image: url('../../../uikit/static/my_foto.jpg');
   height: 200px;
   width: 200px;
   background-size: cover;
