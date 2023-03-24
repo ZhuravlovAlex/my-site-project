@@ -35,7 +35,9 @@ export const EducationInfoBlock = () => {
             </div>
           </div>
           <div className={styles.educationInfoBlock_logo}>
-            {educationInfo.logo}
+            <a href={educationInfo.link} className={styles.link_a}>
+              {educationInfo.logo}
+            </a>
           </div>
         </div>
       ))}

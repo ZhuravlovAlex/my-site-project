@@ -29,3 +29,21 @@ export { ReactComponent as Fitness } from '../../uikit/static/Fitness.svg';
 export { ReactComponent as IPM } from '../../uikit/static/IPM.svg';
 
 export { ReactComponent as Cadillac } from '../../uikit/static/cadillac.svg';
+
+export { ReactComponent as CallList } from '../../uikit/static/call-list-white.svg';
+
+export { ReactComponent as AddressBook } from '../../uikit/static/address-book-white.svg';
+
+export { ReactComponent as Facebook } from '../../uikit/static/facebook-white.svg';
+
+export { ReactComponent as GMail } from '../../uikit/static/gmail-white.svg';
+
+export { ReactComponent as Instagram } from '../../uikit/static/instagram-white.svg';
+
+export { ReactComponent as Linkedin } from '../../uikit/static/linkedin-white.svg';
+
+export { ReactComponent as Skype } from '../../uikit/static/skype-white.svg';
+
+export { ReactComponent as Telegram } from '../../uikit/static/telegram-white.svg';
+
+export { ReactComponent as GitHub } from '../../uikit/static/github-white.svg';

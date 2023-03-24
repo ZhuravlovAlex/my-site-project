@@ -34,7 +34,11 @@ export const WorkInfoBlock = () => {
               ))}
             </div>
           </div>
-          <div className={styles.workInfoBlock_logo}>{workInfo.logo}</div>
+          <div className={styles.workInfoBlock_logo}>
+            <a href={workInfo.link} className={styles.link_a}>
+              {workInfo.logo}
+            </a>
+          </div>
         </div>
       ))}
     </>

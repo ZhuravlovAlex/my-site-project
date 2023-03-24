@@ -1,14 +1,8 @@
 .workInfoBlock_wrapper {
   display: flex;
   justify-content: space-between;
-  /* width: 100%; */
-  /* height: 600px; */
   background-color: #f0f2f5;
-  /* border: solid 2px green; */
   margin: 16px;
-  /* -webkit-box-shadow: 0 0 40px rgb(71 83 102 / 20%);
-  box-shadow: 0 0 28px rgba(4, 38, 92, 0.2);
-  transition: opacity 0.3s ease-in-out; */
   -webkit-box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
   box-shadow: 0 4px 10px rgb(0 0 0 / 25%);
 }
@@ -19,12 +13,12 @@
 
 .workInfoBlock_logo {
   width: 16%;
-  border: solid 2px green;
+  /* border: solid 2px green; */
   align-self: center;
 }
 
 .block_name {
-  width: 100%;
+  width: 40%;
   font-family: 'Quicksand', sans-serif;
   font-size: 56px;
   font-weight: 500;
@@ -75,4 +69,20 @@
   margin-bottom: 15px;
   margin-left: 24px;
   overflow: auto;
+}
+
+.link_a:link,
+.link_a:visited {
+  cursor: pointer;
+}
+
+.link_a text,
+.link_a {
+  fill: blue;
+  text-decoration: underline;
+}
+
+.link_a:hover,
+.link_a:active {
+  outline: dotted 1px blue;
 }

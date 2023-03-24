@@ -69,7 +69,7 @@
 
 .educationInfoBlock_logo {
   width: 20%;
-  border: solid 2px green;
+  /* border: solid 2px green; */
   align-items: center;
   justify-content: center;
   padding-left: 60px;
@@ -90,3 +90,19 @@ svg {
   transform: translateX(2);
   transition: 2s;
 } */
+
+.link_a:link,
+.link_a:visited {
+  cursor: pointer;
+}
+
+.link_a text,
+.link_a {
+  fill: blue; /* Даже для текста SVG использует заливку */
+  text-decoration: underline;
+}
+
+.link_a:hover,
+.link_a:active {
+  outline: dotted 1px blue;
+}
