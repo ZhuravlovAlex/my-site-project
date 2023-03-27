@@ -47,3 +47,5 @@ export { ReactComponent as Skype } from '../../uikit/static/skype-white.svg';
 export { ReactComponent as Telegram } from '../../uikit/static/telegram-white.svg';
 
 export { ReactComponent as GitHub } from '../../uikit/static/github-white.svg';
+
+export const Img1 = '../../uikit/static/1.jpg';

@@ -16,6 +16,10 @@ import { Footer } from '../Footer';
 
 // import { Modal } from '../../uikit/Modal';
 
+import { BackgroundBlock } from '../BackgroundBlock';
+
+import { BackgroundBlock2 } from '../BackgroundBlock2';
+
 import styles from './Container.module.css';
 
 export const Container = () => {
@@ -27,6 +31,7 @@ export const Container = () => {
         <Header />
         <PersonalInfoBlock />
         <WorkInfoBlock />
+        <BackgroundBlock2 />
         {/* <button
           className={styles.open_btn}
           onClick={() => setModalActive(true)}
@@ -34,6 +39,7 @@ export const Container = () => {
           Open modal window
         </button> */}
         <EducationInfoBlock />
+        <BackgroundBlock />
         <CoursesInfoBlock />
       </div>
       <Footer />
