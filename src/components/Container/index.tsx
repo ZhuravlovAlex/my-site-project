@@ -18,7 +18,7 @@ import { Footer } from '../Footer';
 
 import { BackgroundBlock } from '../BackgroundBlock';
 
-import { BackgroundBlock2 } from '../BackgroundBlock2';
+import { BackgroundBlock2 } from '../BackgroundBlockTwo';
 
 import styles from './Container.module.css';
 
