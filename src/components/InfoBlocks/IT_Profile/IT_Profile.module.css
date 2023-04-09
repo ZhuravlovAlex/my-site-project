@@ -1,0 +1,67 @@
+.block_name {
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 74px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #2c333f;
+  margin-top: 8%;
+  margin-left: 36px;
+}
+
+.it_profileInfoBlock_wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f2f5;
+  margin: 16px;
+  -webkit-box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  box-shadow: 0 4px 10px rgb(0 0 0 / 25%);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.it_profileInfoBlock_container {
+  width: 96%;
+  margin: 0 auto;
+  border-left: solid rgba(44, 51, 63, 0.68) 10px;
+  border-right: solid rgba(44, 51, 63, 0.68) 10px;
+}
+
+.it_profileInfoBlock_title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.03em;
+  color: #2c333f;
+  margin: 0 24px 16px;
+}
+
+.it_profileInfoBlock_data {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2c333f;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  flex: 1;
+  height: auto;
+  margin-bottom: 15px;
+  margin-left: 24px;
+  overflow: auto;
+}

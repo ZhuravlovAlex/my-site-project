@@ -104,5 +104,13 @@ export const en = {
       '•	Refresher course “Strategic Management and Production Process Optimization”, Joint Venture LLC “Institute for Privatization and Management”, Minsk, Belarus /02.03.2006 - 22.04.2006/ ',
     coursesEnglish:
       '•	English Language Course, Minsk State Linguistic University, Minsk, Belarus 01.10.2003 - 16.06.2005 ',
+    it_ProfileBlockName: 'IT PROFILE',
+    it_ProfileBlock_title: 'FRONT-END DEVELOPER / NODE.JS TRAINEE',
+    it_ProfileBlock_value_1:
+      'Front-end developer. Successfully completed the full course of study. Completed several projects as a developer. Extensive experience as a Junior/Middle front-end developer (now I am training in Node.js), project manager and product life cycle specialist. I am a fast learner. Eager to join a new team of people and assist them as a dedicated and passionate colleague.',
+    it_ProfileBlock_value_2:
+      'Experienced in programming and creating schedules. Successfully graduated from Rolling Scopes School and completed an internship at Andersen Lab (JS/TS, React). I have experience of working in a full-cycle cross-platform team, from design layout to testing of the finished product.',
+    it_ProfileBlock_value_3:
+      'Now I am preparation for the second specialty as a Node.js trainee. Theory and practice on a real project. Preparing for a Full Stack Specialist',
   },
 };

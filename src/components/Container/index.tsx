@@ -18,7 +18,9 @@ import { Footer } from '../Footer';
 
 import { BackgroundBlock } from '../BackgroundBlock';
 
-import { BackgroundBlock2 } from '../BackgroundBlockTwo';
+import { BackgroundBlockTwo } from '../BackgroundBlockTwo';
+
+import { IT_Profile } from '../InfoBlocks/IT_Profile';
 
 import styles from './Container.module.css';
 
@@ -30,8 +32,9 @@ export const Container = () => {
       <div className={styles.wrapper}>
         <Header />
         <PersonalInfoBlock />
+        <IT_Profile />
+        <BackgroundBlockTwo />
         <WorkInfoBlock />
-        <BackgroundBlock2 />
         {/* <button
           className={styles.open_btn}
           onClick={() => setModalActive(true)}

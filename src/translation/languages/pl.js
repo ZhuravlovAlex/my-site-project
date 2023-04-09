@@ -88,5 +88,13 @@ export const pl = {
       '• Kurs odświeżający „Zarządzanie strategiczne i optymalizacja procesów produkcyjnych”, Joint Venture LLC „Instytut Prywatyzacji i Zarządzania”, Mińsk, Białoruś /02.03.2006 - 22.04.2006/ Certyfikat',
     coursesEnglish:
       '• Kurs języka angielskiego, Miński Państwowy Uniwersytet Lingwistyczny, Mińsk, Białoruś. Dyplom',
+    it_ProfileBlockName: 'PROFIL IT',
+    it_ProfileBlock_title: 'FRONT-END DEVELOPER / SZKOLNIK NODE.JS',
+    it_ProfileBlock_value_1:
+      'Programista frontendu. Pomyślnie ukończył pełny cykl studiów. Zrealizował kilka projektów jako programista. Bogate doświadczenie jako Junior/Middle front-end developer (obecnie szkolę się w Node.js), kierownik projektu i specjalista cyklu życia produktu. Szybko się uczę. Pragnie dołączyć do nowego zespołu ludzi i pomagać im jako oddany i pełen pasji współpracownik.',
+    it_ProfileBlock_value_2:
+      'Doświadczenie w programowaniu i tworzeniu harmonogramów. Z sukcesem ukończył Rolling Scopes School oraz odbył staż w Andersen Lab (JS/TS, React). Mam doświadczenie w pracy w zespole wieloplatformowym pełnego cyklu, od projektu layoutu po testowanie gotowego produktu.',
+    it_ProfileBlock_value_3:
+      'Teraz przygotowuję się do drugiej specjalności jako praktykant Node.js. Teoria i praktyka na prawdziwym projekcie. Przygotowanie na stanowisko Full Stack Specialist',
   },
 };
