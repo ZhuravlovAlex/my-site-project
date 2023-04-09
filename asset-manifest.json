@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/my-site-project/static/css/main.9c5d390e.css",
-    "main.js": "/my-site-project/static/js/main.99f3b3be.js",
+    "main.css": "/my-site-project/static/css/main.709f32ee.css",
+    "main.js": "/my-site-project/static/js/main.02eaf312.js",
     "static/media/3.jpg": "/my-site-project/static/media/3.95ecbe1f0192e905de86.jpg",
     "static/media/1.jpg": "/my-site-project/static/media/1.79574916ddb0a0416ee9.jpg",
     "static/media/2.jpg": "/my-site-project/static/media/2.928f5f4469f7722575be.jpg",
     "static/media/4.jpg": "/my-site-project/static/media/4.258c4107409b31049317.jpg",
+    "static/media/5.jpg": "/my-site-project/static/media/5.c7c917ab12ce4578dbea.jpg",
     "static/media/IPM.svg": "/my-site-project/static/media/IPM.7540a5a2d01c19f090f6a03926515780.svg",
     "static/media/monbel.svg": "/my-site-project/static/media/monbel.8476f9c1f450a29a6925ec06d1b6d348.svg",
     "static/media/my_foto.jpg": "/my-site-project/static/media/my_foto.3711b31f971dcdab47da.jpg",
@@ -34,11 +35,11 @@
     "static/media/call-list-white.svg": "/my-site-project/static/media/call-list-white.7469f7cf7bba000da97f6c2270840830.svg",
     "index.html": "/my-site-project/index.html",
     "static/media/Andersen.svg": "/my-site-project/static/media/Andersen.4bbd55a9080babfd84ff3e55d9c36da7.svg",
-    "main.9c5d390e.css.map": "/my-site-project/static/css/main.9c5d390e.css.map",
-    "main.99f3b3be.js.map": "/my-site-project/static/js/main.99f3b3be.js.map"
+    "main.709f32ee.css.map": "/my-site-project/static/css/main.709f32ee.css.map",
+    "main.02eaf312.js.map": "/my-site-project/static/js/main.02eaf312.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c5d390e.css",
-    "static/js/main.99f3b3be.js"
+    "static/css/main.709f32ee.css",
+    "static/js/main.02eaf312.js"
   ]
 }
