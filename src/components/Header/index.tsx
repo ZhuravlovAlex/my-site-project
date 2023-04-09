@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { createSearchParams, useNavigate } from 'react-router-dom';
 import { LanguageButtons } from '../../uikit/LanguageButton';
 import { Cadillac } from '../Icons';
 

@@ -61,10 +61,10 @@ export const Slider = () => {
               >
                 <FormattedMessage id="welcomeBtn" />
               </Button>
-              <SliderEllipses
+              {/* <SliderEllipses
                 activeIndex={activeIndex}
                 updateActiveEllipse={updateActiveEllipse}
-              />
+              /> */}
             </React.Fragment>
           )
       )}

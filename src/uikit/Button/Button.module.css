@@ -13,6 +13,7 @@
   box-shadow: 0 0 40px rgb(15 96 223 / 20%);
   cursor: pointer;
 }
+
 .primaryThick {
   height: 40px;
   min-width: 82px;
@@ -26,4 +27,11 @@
   border: 2px solid var(--primary-button-default);
   background-color: var(--primary-button-default);
   transition: 0.3s;
+}
+
+@media (max-width: 1366px) {
+  .welcome {
+    height: 44px;
+    min-width: 128px;
+  }
 }

@@ -86,5 +86,13 @@ export const de = {
       '• Auffrischungskurs „Strategisches Management und Produktionsprozessoptimierung“, Joint Venture LLC „Institut für Privatisierung und Management“, Minsk, Weißrussland. Zertifikat',
     coursesEnglish:
       '• Englischkurs, Staatliche Linguistische Universität Minsk, Minsk, Weißrussland. Diplom',
+    it_ProfileBlockName: 'IT-PROFIL',
+    it_ProfileBlock_title: 'FRONT-END-ENTWICKLER / NODE.JS-AUSBILDUNG',
+    it_ProfileBlock_value_1:
+      'Entwickler für Benutzeroberflächen. Vollständiges Studium erfolgreich abgeschlossen. Als Entwickler mehrere Projekte abgeschlossen. Umfangreiche Erfahrung als Junior/Middle-Frontend-Entwickler (jetzt mache ich eine Ausbildung in Node.js), Projektmanager und Produktlebenszyklus-Spezialist. Ich lerne schnell. Begierig, sich einem neuen Team von Menschen anzuschließen und ihnen als engagierter und leidenschaftlicher Kollege zu helfen.',
+    it_ProfileBlock_value_2:
+      'Erfahrung in der Programmierung und Erstellung von Zeitplänen. Erfolgreicher Abschluss der Rolling Scopes School und absolviertes Praktikum bei Andersen Lab (JS/TS, React). Ich habe Erfahrung in der Arbeit in einem plattformübergreifenden Team für den gesamten Zyklus, vom Designlayout bis zum Testen des fertigen Produkts.',
+    it_ProfileBlock_value_3:
+      'Jetzt bereite ich mich als Node.js-Trainee auf die zweite Spezialität vor. Theorie und Praxis an einem realen Projekt. Vorbereitung auf einen Full-Stack-Spezialisten',
   },
 };

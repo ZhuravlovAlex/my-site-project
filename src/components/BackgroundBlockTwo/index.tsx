@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Img1 } from '../Icons';
-
 import styles from './BackgroundBlockTwo.module.css';
 
 export const BackgroundBlockTwo = () => {

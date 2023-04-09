@@ -59,7 +59,7 @@ img {
 
 .slider_button {
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 46%;
 }
 
@@ -72,7 +72,7 @@ img {
   color: #ffffff;
   align-items: center;
   margin-top: 10%;
-  margin-left: 12%;
+  margin-left: 8%;
 }
 
 .slider_text_small {
@@ -99,7 +99,7 @@ img {
   align-items: center;
   margin-top: 40px;
   margin-top: 4%;
-  margin-left: 12%;
+  margin-left: 8%;
   max-width: 800px;
 }
 
@@ -107,4 +107,18 @@ img {
   display: flex;
   transition: 0.5s;
   min-width: 10vw;
+}
+
+@media (max-width: 1366px) {
+  .slider_text_big {
+    font-size: 48px;
+  }
+
+  .slider_text_small {
+    font-size: 20px;
+  }
+
+  .slider_text_info {
+    font-size: 14px;
+  }
 }
